@@ -17,5 +17,12 @@
     "license": "AGPL-3",
     "installable": True,
     "depends": ["web"],
-    "data": ["views/assets.xml"],
+    "data": [],
+
+    "assets": {
+        "web.assets_backend": [
+            "/web_tree_many2one_clickable/static/**/*.js",
+            "/web_tree_many2one_clickable/static/**/*.css",
+        ],
+    },
 }
